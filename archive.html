@@ -11,7 +11,7 @@
 <main>
     <!-- begin add new todo -->
     <form class="add-todo" ng-submit="addTodo()">
-      <input class="text-box" type="text" placeholder="I need to..." ng-model="text">
+      <input class="text-box" type="text" placeholder="I need to..." ng-model="$parent.text">
       <input type="submit" class="btn btn-add" value="+">
     </form>
     <!-- end add new todo
