@@ -4,8 +4,8 @@
 </header>
 
 <nav class='tabs'>
-  <a ui-sref-active="active" ui-sref="home">List</a>
-  <a ui-sref-active="active" ui-sref="archive">Archive</a>
+  <a ui-sref-active="active" ui-sref="home">List ({{remainingTodos().length}})</a>
+  <a ui-sref-active="active" ui-sref="archive">Archive ({{completedTodos().length}})</a>
 </nav>
 
 <main>
