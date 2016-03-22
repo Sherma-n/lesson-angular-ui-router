@@ -3,6 +3,8 @@ angular
   .config(MainRouter);
 
 function MainRouter($stateProvider, $urlRouterProvider) {
+  $urlRouterProvider.otherwise('/');
+  
   $stateProvider
     .state('home', {
       url: "/",
